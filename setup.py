@@ -80,7 +80,7 @@ setup(
     # pip to create the appropriate form of executable for the target platform.
     entry_points='''
         [ckan.plugins]
-        polkam=ckanext.polkam.plugin:POLKAMPlugin
+        polkam=ckanext.polkam.plugin:polkamplugin
 
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan
